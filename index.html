@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File Downloader</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h2>FILE DOWNLOADER</h2>
+			<p>Paste URL link of any format including images, video, and pdf.</p>
+			<form action="">
+				<input type="text" placeholder="Paste file URL" />
+				<button class="download__btn">Download File</button>
+			</form>
+			<footer class="bottom">
+				Built with &hearts; by <a href="https://kingjoshua.netlify.app">KingJoshua</a>
+			</footer>
+		</div>
+		<div class="modal hidden">
+			<button class="close__btn">&times;</button>
+			<div class="modal__context"><br /></div>
+			<div class="confirm__container">
+				<button data-confirm="yes">Yes</button>
+				<button data-confirm="no">No</button>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
